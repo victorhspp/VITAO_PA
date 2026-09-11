@@ -27,3 +27,8 @@ body::before, body::after {
     filter: blur(80px);
     z-index: 0;
 }
+
+body::before {
+    background: linear-gradient(45deg, #ff6ec4, #7873f5);
+    animation: animate 6s linear infinite;
+}
