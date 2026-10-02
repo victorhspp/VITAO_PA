@@ -43,3 +43,17 @@ body::before {
     overflow: hidden;
     z-index: 1;
 }
+
+.conteudo{
+    position: relative;
+    width: 100%;
+    max-width: 100px;
+    text-align: center;
+    z-index: 1;
+}
+
+.conteudo h2{
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
