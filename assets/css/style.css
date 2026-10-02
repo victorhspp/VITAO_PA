@@ -57,3 +57,9 @@ body::before {
     color: #333;
     margin-bottom: 30px;
 }
+
+.info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
