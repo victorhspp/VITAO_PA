@@ -74,3 +74,8 @@ body::before {
     transition: 0.3s ease;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
+
+.info-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
