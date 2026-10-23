@@ -88,3 +88,15 @@ body::before {
     transform: translateY(-10px);
     box-shadow: 0 15px 25px rgba(0,0,0,0.2);
 }
+
+.info-card h3{
+    color: #f87171;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.info-card p{
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+}
