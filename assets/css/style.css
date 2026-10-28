@@ -21,7 +21,7 @@ body{
     flex-direction: column;
     gap: 60px;
     padding: 80px 20px;
-    
+
 }
 
 body::before, body::after {
@@ -37,8 +37,9 @@ body::before, body::after {
 }
 
 body::before {
-    background: linear-gradient(45deg, #ff6ec4, #7873f5);
-    animation: animate 6s linear infinite;
+    background: #dc2626;
+    top: 20%;
+    left: 25%;
 }
 
 .card {
